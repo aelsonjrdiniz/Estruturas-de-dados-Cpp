@@ -10,8 +10,8 @@ class LinkedList {
 	public:
 		LinkedList() {
 			this->size = 0;
-			this->head = 0;
-			this->tail = 0;
+			this->head = NULL;
+			this->tail = NULL;
 		}
 
 		void addLast(int value) {
