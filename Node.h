@@ -1,11 +1,6 @@
-#include <string>
-
-using std::string;
-using std::to_string;
 
 class Node {
 	public:
-
 		int value;
 		Node *nextPtr;
 		Node *prevPtr;
