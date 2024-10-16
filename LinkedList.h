@@ -43,8 +43,7 @@ class LinkedList {
 		void add(int index, int value) {
 			if (index < 0 || index > this->size) {
 				throw std::runtime_error("Índice inválido");
-			}
-			if (index == 0) {
+			} else if (index == 0) {
 				addFirst(value);
 			} else if (index == size) {
 				addLast(value);
