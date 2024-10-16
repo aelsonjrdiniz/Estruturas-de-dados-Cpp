@@ -1,4 +1,3 @@
-
 class Node {
 	public:
 		int value;
